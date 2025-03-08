@@ -1,0 +1,1 @@
+pub const JAVA_HOME: &str = "JAVA_HOME";
