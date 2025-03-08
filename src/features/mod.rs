@@ -26,8 +26,8 @@ impl Context {
     }
     
     pub fn save_context(&self) {
-        std::env::set_var(constants::JAVA_HOME, self.java_home.clone());
         println!("Saving context...");
+        std::env::set_var(constants::JAVA_HOME, self.java_home.clone());
     }
     
     fn get_java_home() -> Option<String> {
